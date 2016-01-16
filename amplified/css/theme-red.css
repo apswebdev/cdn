@@ -126,10 +126,10 @@ span.meta_date:hover,span.meta_comment:hover,span.meta_more:hover,span.meta_comm
   border-right: 2px solid brown;
 }
 .angle_left {
-  background-color: brown;
+  background-color: #555;
 }
 .angle_right {
-  background-color: brown;
+  background-color: #555;
 }
 .error_page_content h1:after, .error_page_content h1:before {  
   border: 2px solid brown;
