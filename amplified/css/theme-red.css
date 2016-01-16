@@ -80,7 +80,7 @@ span.meta_date:hover,span.meta_comment:hover,span.meta_more:hover,span.meta_comm
   color: #f13b3b;
 }
 .single_bottom_rightbar>h2{
-  border-bottom: 3px solid #f13b3b;
+  border-bottom: 3px solid #333;
 }
 .nav-tabs {
   border-bottom: 1px solid #f13b3b;
