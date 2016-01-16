@@ -114,7 +114,7 @@ img:hover{
   
 }
 .top_nav li a:hover{
-  color: #FFA500;
+  color: brown;
   text-decoration: none;
   outline: none;
 }
@@ -169,7 +169,7 @@ img:hover{
   opacity: 1;
 }
 .logo>strong{
-  color: #FFA500;
+  color: brown;
 }
 .logo>span{
   display: block;
@@ -968,7 +968,7 @@ height: 112px;
 }
 .single_page_content ul li:before {  
   border-radius: 0;
-  color: #ffa500;
+  color: brown;
   content: "";
   height: 10px;
   margin-left: -15px;
@@ -1194,7 +1194,7 @@ background-color: #ec5f4a;
   padding: 3px;
 }
 .read_more {
-  border-bottom: 4px solid #ffa500;
+  border-bottom: 4px solid brown;
   bottom: 0;
   display: block;
   left: 0;
@@ -1223,7 +1223,7 @@ background-color: #ec5f4a;
   font-weight: 400;
   position: relative;
   vertical-align: middle;
-  color: #ffa500;
+  color: brown;
 }
 .error_page_content h1:after, .error_page_content h1:before {
   background: none repeat scroll 0 0 #fff;  
@@ -1277,7 +1277,7 @@ background-color: #ec5f4a;
   width: 100%;
 }
 .error_page_content p>a:hover{
-  color: #ffa500;
+  color: brown;
 }
 /*=============start contact page==========*/
 #ContactContent{
