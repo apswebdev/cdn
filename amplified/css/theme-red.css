@@ -1,4 +1,6 @@
-
+.navbar-header{
+	background:#555;
+}
 .scrollToTop{
   background-color: brown;
   color: #fff;
@@ -15,7 +17,7 @@
   background-color: brown;
 }
 .navbar-default {
-  background-color: brown;
+  background-color: #555;
   border-color: brown;  
 }
 .custom_nav li a:hover{ 
