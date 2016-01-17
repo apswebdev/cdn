@@ -102,7 +102,7 @@ span.meta_date:hover,span.meta_comment:hover,span.meta_more:hover,span.meta_comm
   background-color: brown;
 }  
 .breadcrumb {
-  background-color: #555;
+  background-color: #333;
   border: 2px solid #CCC;
 }
 .single_page_area > h2 {
