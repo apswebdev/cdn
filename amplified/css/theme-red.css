@@ -1,5 +1,11 @@
 .navbar-header{
-	background:#555 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a52a2a+0,4f0702+100 */
+background: #a52a2a; /* Old browsers */
+background: -moz-linear-gradient(top,  #a52a2a 0%, #4f0702 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a52a2a 0%,#4f0702 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a52a2a 0%,#4f0702 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a52a2a', endColorstr='#4f0702',GradientType=0 ); /* IE6-9 */
+
 }
 .scrollToTop{
   background-color: brown;
