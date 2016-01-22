@@ -10,6 +10,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#380b0b', end
 }
 #container1{
 background:#FFF;
+padding-bottom:12px;
 }
 ul{
 	padding: 0;
