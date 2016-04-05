@@ -73,46 +73,4 @@ jQuery("body").on("click",".portfolio-box", function(){
 		scrollTop: jQuery(cls).offset().top
 	}, 1000);
 });
-jQuery("body").on("click","#view_works", function(){
-	var ths = jQuery(this);
-	ths.html("Validating Please Wait...");
-	var email = jQuery("#email_input").val().trim();
-	var authenticate = jQuery("#authenticate_input").val().trim();
-	var err = "";
-	if(email == ""){ err += "Email is required!"; } 
-	// further validate email on client
-	else {
-		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-		if(!re.test(email)){
-			err += "Email is Invalid!";
-		} 
-	}
-	if(authenticate == ""){	err += "\nAuthentication Code is required!"; }
-	if(err == ""){
-			// validate email on server side
-			jQuery("#sign").hide();
-			jQuery("#loader").show();
-			$.ajax({
-				type: "POST", 
-				url: "<?= site_url(); ?>ajax/validate_data",
-				data: { _t_<?= date("Y_m"); ?> : jQuery("input[name=_t_<?= date("Y_m"); ?>]").val(), 
-						email: email, auth:authenticate 
-					  },
-				dataType: 'html',
-				success: function(data){
-					if(data.indexOf("portfolio") > -1){
-						jQuery("#portfolio_view").hide();
-						jQuery("#content_portfolio").append(data);
-					} else {
-						jQuery("#sign").show();
-						jQuery("#loader").hide();
-						alert(data);
-						ths.html("VIEW WORKS");
-					}
-				}    
-			});
-	} else {
-		alert(err);
-		ths.html("VIEW WORKS");
-	}	
-});	
+
